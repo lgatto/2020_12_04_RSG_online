@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html lang="" xml:lang="">
-  <head>
-    <title>Becoming a better scientist with open and reproducible research</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Laurent Gatto" />
-    <link href="rsg-slides_files/remark-css/default.css" rel="stylesheet" />
-    <link href="rsg-slides_files/remark-css/default-fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="my.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Becoming a better scientist with <em>open</em> and <em>reproducible</em> research
-### <a href="#laurent-gatto">Laurent Gatto</a>
-### 2020/12/04
-
+---
+title: "Becoming a better scientist with *open* and *reproducible* research"
+author: "[Laurent Gatto](#laurent-gatto)"
+date: "2020/12/04"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
-
-
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
 
 class: middle
 name: cc-by
@@ -32,8 +26,8 @@ These slides and blog post are available under a **creative common
 [CC-BY license](http://creativecommons.org/licenses/by/4.0/)**. You
 are free to share (copy and redistribute the material in any medium or
 format) and adapt (remix, transform, and build upon the material) for
-any purpose, even commercially &lt;img height="20px" alt="CC-BY"
-src="./img/cc1.jpg" /&gt;.
+any purpose, even commercially <img height="20px" alt="CC-BY"
+src="./img/cc1.jpg" />.
 
 
 ---
@@ -69,8 +63,8 @@ class: middle
 
 ## Reproducible != open
 
-&lt;blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Many people seem to think that &lt;a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#OpenScience&lt;/a&gt; &amp;amp; the reproducibility crisis in psychology are somehow causally related. They are not. Open science is decades old &amp;amp; did not focus on reproducibility as a single issue — more here: &lt;a href="https://t.co/KpJHIEqPj3"&gt;https://t.co/KpJHIEqPj3&lt;/a&gt; &amp;amp; here: &lt;a href="https://t.co/KdMeK6PCUT"&gt;https://t.co/KdMeK6PCUT&lt;/a&gt; &lt;a href="https://t.co/qF5yPTqNqu"&gt;pic.twitter.com/qF5yPTqNqu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Olivia Guest | Ολίβια Γκεστ (@o_guest) &lt;a href="https://twitter.com/o_guest/status/1068791012481470464?ref_src=twsrc%5Etfw"&gt;December 1, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Many people seem to think that <a href="https://twitter.com/hashtag/OpenScience?src=hash&amp;ref_src=twsrc%5Etfw">#OpenScience</a> &amp; the reproducibility crisis in psychology are somehow causally related. They are not. Open science is decades old &amp; did not focus on reproducibility as a single issue — more here: <a href="https://t.co/KpJHIEqPj3">https://t.co/KpJHIEqPj3</a> &amp; here: <a href="https://t.co/KdMeK6PCUT">https://t.co/KdMeK6PCUT</a> <a href="https://t.co/qF5yPTqNqu">pic.twitter.com/qF5yPTqNqu</a></p>&mdash; Olivia Guest | Ολίβια Γκεστ (@o_guest) <a href="https://twitter.com/o_guest/status/1068791012481470464?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 class: middle
@@ -102,9 +96,9 @@ class: middle, inverse, center
 ---
 class: middle
 
-&gt; Open science/research is the process of transparent dissemination
-&gt; and access to knowledge, that can be applied to various scientific
-&gt; practices.
+> Open science/research is the process of transparent dissemination
+> and access to knowledge, that can be applied to various scientific
+> practices.
 
 
 ---
@@ -121,26 +115,26 @@ class: middle, inverse, center
 ---
 class: middle, center
 
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;21 Tips on
-how to sound &lt;a
-href="https://twitter.com/hashtag/openscience?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#openscience&lt;/a&gt;:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">21 Tips on
+how to sound <a
+href="https://twitter.com/hashtag/openscience?src=hash&amp;ref_src=twsrc%5Etfw">#openscience</a>:
 in the last three weeks before x-mas, I will tweet on tip each day on
 how to sound like an open scientist, without actually doing open
-science. Enjoy! &lt;a
-href="https://t.co/K7TXb9UmHM"&gt;pic.twitter.com/K7TXb9UmHM&lt;/a&gt;&lt;/p&gt;&amp;mdash;
-Egon Willighⓐgen (@egonwillighagen) &lt;a
-href="https://twitter.com/egonwillighagen/status/1334411812973015040?ref_src=twsrc%5Etfw"&gt;December
-3, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+science. Enjoy! <a
+href="https://t.co/K7TXb9UmHM">pic.twitter.com/K7TXb9UmHM</a></p>&mdash;
+Egon Willighⓐgen (@egonwillighagen) <a
+href="https://twitter.com/egonwillighagen/status/1334411812973015040?ref_src=twsrc%5Etfw">December
+3, 2020</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
-charset="utf-8"&gt;&lt;/script&gt;
+charset="utf-8"></script>
 
 
 ---
 class: middle, inverse
 
-&gt; Open science/research can mean different things to different people,
-&gt; in particular when declined it along its many technical and
-&gt; philosophical attributes.
+> Open science/research can mean different things to different people,
+> in particular when declined it along its many technical and
+> philosophical attributes.
 
 ---
 class: middle, inverse, middle
@@ -214,13 +208,13 @@ and
 class: middle, center
 
 
-&lt;blockquote class="twitter-tweet" data-conversation="none"
-data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;It was a damned hard community
+<blockquote class="twitter-tweet" data-conversation="none"
+data-lang="en"><p lang="en" dir="ltr">It was a damned hard community
 to break into. Any step I took to be more open, I felt attacked for
-not doing enough/doing it right.&lt;/p&gt;&amp;mdash; Christie Bahlai (@cbahlai)
-&lt;a href="https://twitter.com/cbahlai/status/871413258107981824"&gt;June
-4, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
-src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+not doing enough/doing it right.</p>&mdash; Christie Bahlai (@cbahlai)
+<a href="https://twitter.com/cbahlai/status/871413258107981824">June
+4, 2017</a></blockquote> <script async
+src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
@@ -241,14 +235,14 @@ or is supposed to be, I think we can agree with [Cameron
 Neylon](https://twitter.com/CameronNeylon/status/895546085468495873):
 
 
-&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en"
-dir="ltr"&gt;The primary value proposition of &lt;a
-href="https://twitter.com/hashtag/openscience?src=hash"&gt;#openscience&lt;/a&gt;
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en"
+dir="ltr">The primary value proposition of <a
+href="https://twitter.com/hashtag/openscience?src=hash">#openscience</a>
 is that diverse contributions allow better critique, refinement, and
-application 3/n&lt;/p&gt;&amp;mdash; CⓐmeronNeylon (@CameronNeylon) &lt;a
-href="https://twitter.com/CameronNeylon/status/895546764861853696"&gt;August
-10, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
-src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+application 3/n</p>&mdash; CⓐmeronNeylon (@CameronNeylon) <a
+href="https://twitter.com/CameronNeylon/status/895546764861853696">August
+10, 2017</a></blockquote> <script async
+src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 class: middle, center, inverse
@@ -267,14 +261,14 @@ to talk already many years ago about ethical publishing (for research
 dissemination at large). I wasn't immediately sold on the phrasing,
 but I now came to the realisation that it's absolutely spot on.
 
-&gt; We should think about the ethical implications of how we perform and
-&gt; disseminate our research.
+> We should think about the ethical implications of how we perform and
+> disseminate our research.
 
 (Thank you Corina).
 ]
 
 .rigth-col-30[
-![Corina](https://avatars3.githubusercontent.com/u/24410513?s=400&amp;u=6deb6bb7ee01aa853b88c666397a00618198f871&amp;v=4)
+![Corina](https://avatars3.githubusercontent.com/u/24410513?s=400&u=6deb6bb7ee01aa853b88c666397a00618198f871&v=4)
 ]
 
 ---
@@ -330,7 +324,7 @@ class: middle, center, inverse
 ---
 class: middle
 
-&gt; Does it take more time to work openly?
+> Does it take more time to work openly?
 
 Isn't it worth investing time is managing data in a way that others
 (including future self) can find and understand it? That's, IMHO,
@@ -338,11 +332,11 @@ particularly important from a group leader's perspective, where I want
 to build a corpus of data/software/research that other lab members can
 find, mine and re-use.
 
-&gt; Are senior academics always supportive?
+> Are senior academics always supportive?
 
 No.
 
-&gt; Is there a risk of being scooped?
+> Is there a risk of being scooped?
 
 There certainly is a benefit if releasing one's research early!
 
@@ -365,13 +359,13 @@ class: middle
 
 ## So, are there any risks? 
 
-&gt; The [Bullied Into Bad Science](http://bulliedintobadscience.org/)
-&gt; campaign is an initiative by early career researchers (ECRs) for
-&gt; early career researchers who aim for a fairer, more open and ethical
-&gt; research and publication environment.
+> The [Bullied Into Bad Science](http://bulliedintobadscience.org/)
+> campaign is an initiative by early career researchers (ECRs) for
+> early career researchers who aim for a fairer, more open and ethical
+> research and publication environment.
 
 
-&lt;img src="https://raw.githubusercontent.com/BulliedIntoBadScience/stickers/master/logo_light.png" width="300" alt="Bullied Into Bad Science"&gt;
+<img src="https://raw.githubusercontent.com/BulliedIntoBadScience/stickers/master/logo_light.png" width="300" alt="Bullied Into Bad Science">
 
 
 ---
@@ -398,14 +392,14 @@ class: middle
 Incentives for open career progression aren't there (yet?), or not
 fully implemented. On the contrary...
 
-&gt; If *research is the by-product of researchers getting promoted* (a
-&gt; quote by
-&gt; [David Barron, Professor of Computer Science](https://en.wikipedia.org/wiki/David_W._Barron),
-&gt; Prof. Leslie Carr, personal communication), then shouldn't we, early
-&gt; career researchers (ECRs), focus on promotion and being docile
-&gt; academic citizens rather than aiming for the more noble cause of
-&gt; pursuing research to understand the world that surrounds us, and
-&gt; disseminate our findings using modern channels?
+> If *research is the by-product of researchers getting promoted* (a
+> quote by
+> [David Barron, Professor of Computer Science](https://en.wikipedia.org/wiki/David_W._Barron),
+> Prof. Leslie Carr, personal communication), then shouldn't we, early
+> career researchers (ECRs), focus on promotion and being docile
+> academic citizens rather than aiming for the more noble cause of
+> pursuing research to understand the world that surrounds us, and
+> disseminate our findings using modern channels?
 
 
 ---
@@ -416,10 +410,10 @@ But see the [**Declaration on Research Assessment
 (DORA)**](https://sfdora.org/) to improve the ways in which the
 outputs of scholarly research are evaluated.
 
-&gt; **Raise awareness**  
-&gt; **Facilitate implementation**  
-&gt; **Catalyze change**  
-&gt; **Improve equity**  
+> **Raise awareness**  
+> **Facilitate implementation**  
+> **Catalyze change**  
+> **Improve equity**  
 
 ---
 class: middle
@@ -502,9 +496,9 @@ class: middle
 
 From 
 
-&gt; Gabriel Becker [*An Imperfect Guide to Imperfect
-&gt; Reproducibility*](https://gmbecker.github.io/MayInstituteKeynote2019/outline.html)
-&gt; May Institute for Computational Proteomics, Boston, 2019.
+> Gabriel Becker [*An Imperfect Guide to Imperfect
+> Reproducibility*](https://gmbecker.github.io/MayInstituteKeynote2019/outline.html)
+> May Institute for Computational Proteomics, Boston, 2019.
 
 
 ## (Computational) Reproducibility Is Not The Point
@@ -549,11 +543,11 @@ class: middle
 
 ![Five selfish reasons to work reproducibly](./img/2017-09-22-selfish-rr.png)
 
-&gt; And so, my fellow scientists: ask not what you can do for
-&gt; reproducibility; ask what reproducibility can do for you! Here, I
-&gt; present five reasons why working reproducibly pays off in the long
-&gt; run and is in the self-interest of every ambitious, career-oriented
-&gt; scientist.
+> And so, my fellow scientists: ask not what you can do for
+> reproducibility; ask what reproducibility can do for you! Here, I
+> present five reasons why working reproducibly pays off in the long
+> run and is in the self-interest of every ambitious, career-oriented
+> scientist.
 
 ---
 class: middle
@@ -575,7 +569,7 @@ class: middle
 **No**, it is a matter or relacating time!
 
 
-&lt;img src="./img/reproducibiity_relocates_time.png" alt="Reproducibility relocates time" width="500"/&gt;
+<img src="./img/reproducibiity_relocates_time.png" alt="Reproducibility relocates time" width="500"/>
 
 
 From [Five things about open and reproducible science that every early
@@ -642,9 +636,9 @@ reports and decision letters. eLife has very recently announced that
 they are implementing a [**publish, then review**
 model](https://elifesciences.org/articles/64910) of publishing:
 
-&gt; From July 2021 eLife will only review manuscripts already published
-&gt; as preprints, and will focus its editorial process on producing
-&gt; public reviews to be posted alongside the preprints.
+> From July 2021 eLife will only review manuscripts already published
+> as preprints, and will focus its editorial process on producing
+> public reviews to be posted alongside the preprints.
 
 ---
 class: middle
@@ -756,126 +750,3 @@ Penfold](https://twitter.com/npscience), [Yvonne
 Nobis](https://twitter.com/yvonnenobis).
 
 ## Thank you for your attention
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
-
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();
-(function() {
-  "use strict"
-  // Replace <script> tags in slides area to make them executable
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    var scriptAttrs = scripts[i].attributes;
-    for (var j = 0; j < scriptAttrs.length; j++) {
-      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
-    }
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
-
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
-
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
