@@ -1,6 +1,6 @@
 ---
 title: "Becoming a better scientist with *open* and *reproducible* research"
-author: "[Laurent Gatto](#laurent-gatto)"
+author: "[Laurent Gatto](https://lgatto.github.io/about/) - @lgatt0"
 date: "2020/12/04"
 output:
   xaringan::moon_reader:
@@ -132,9 +132,7 @@ charset="utf-8"></script>
 ---
 class: middle, inverse
 
-> Open science/research can mean different things to different people,
-> in particular when declined it along its many technical and
-> philosophical attributes.
+## Open science/research can mean different things to different people, in particular when declined it along its many technical and philosophical attributes.
 
 ---
 class: middle, inverse, middle
@@ -157,6 +155,8 @@ How to be an open scientist:
 
 ---
 class: middle, inverse, center
+
+Sometimes, beware of what is **sold** as open 
 
 ## Open research as a business: 
 ## ~~Open Access~~  **Open Acce$$**
@@ -245,27 +245,21 @@ href="https://twitter.com/CameronNeylon/status/895546764861853696">August
 src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
-class: middle, center, inverse
+class: middle, inverse
 
 ## Ethical publishing
-
----
-class: middle
-
 
 .left-col-70[
 
 [Corina Logan](http://corinalogan.com/)
-([@LoganCorina](https://twitter.com/LoganCorina) on twitter) started
-to talk already many years ago about ethical publishing (for research
-dissemination at large). I wasn't immediately sold on the phrasing,
-but I now came to the realisation that it's absolutely spot on.
+([@LoganCorina](https://twitter.com/LoganCorina)) started to use
+already many years ago about **ethical publishing** 
 
 > We should think about the ethical implications of how we perform and
 > disseminate our research.
 
-(Thank you Corina).
-]
+I wasn't immediately sold on the phrasing, but I now came to the
+realisation that it's absolutely spot on. Thank you Corina!  ]
 
 .rigth-col-30[
 ![Corina](https://avatars3.githubusercontent.com/u/24410513?s=400&u=6deb6bb7ee01aa853b88c666397a00618198f871&v=4)
@@ -490,6 +484,14 @@ Whitaker](https://figshare.com/articles/Publishing_a_reproducible_paper/4720996/
 | **Same Code**      | reproduce | replicate      |
 | **Different Code** | robust    | generalisable  |
 
+
+
+---
+class: middle, inverse, center
+
+## Why reproducibility is important 
+
+(as an individual researcher)
 
 ---
 class: middle 
@@ -749,4 +751,4 @@ Hartgenink](https://twitter.com/chartgerink), [Naomie
 Penfold](https://twitter.com/npscience), [Yvonne
 Nobis](https://twitter.com/yvonnenobis).
 
-## Thank you for your attention
+## Thank you for your attention!
