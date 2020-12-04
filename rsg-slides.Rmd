@@ -96,10 +96,10 @@ class: middle, inverse, center
 ---
 class: middle
 
-> Open science/research is the process of transparent dissemination
-> and access to knowledge, that can be applied to various scientific
-> practices.
 
+> Open science/research can mean different things to different people,
+> in particular when declined along its many **technical**,
+> **administrative**, **legal** and **philosophical** attributes.
 
 ---
 class: middle, center
