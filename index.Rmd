@@ -217,7 +217,7 @@ class: middle
   [arXiv](https://arxiv.org/), [bioRXiv](https://www.biorxiv.org/),
   ...), get a DOI and credit. :-)
 
-- **Gold open access**: pay a lot of moeny (APC article processing
+- **Gold open access**: pay a lot of money (APC article processing
   charge), typically 3000 -
   [9000](https://www.nature.com/articles/d41586-020-03324-y) Euros to
   publish your article in a journal under an open access
